@@ -1,7 +1,9 @@
-=> This was duplicated from https://github.com/AitorDB/home-assistant-sun-card which was archived on 2023-03-10. I will work on publishing this into HACS later if the owner of that original repository doesn't have any concerns about that.
-
 # Home assistant Sun card
 Home assistant Sun card based on Google weather design
+
+## References
+=> This was duplicated from https://github.com/AitorDB/home-assistant-sun-card which was archived on 2023-03-10.
+I'm working on publishing this back into HACS and will update the status here.
 
 ## Preview
 ![Light mode preview](https://user-images.githubusercontent.com/6829526/118412152-54d93900-b690-11eb-8b2b-e87b4cbcca7f.png)
