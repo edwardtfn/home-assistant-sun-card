@@ -1,0 +1,34 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [edited, labeled, opened, reopened]
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  hacs:
+    if: |
+      github.event.pull_request.label.name != 'documentation' &&
+      github.event.pull_request.label.name != 'github'
+    name: HACS
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "actions/checkout@v3"
+      - name: HACS
+        uses: "hacs/action@main"
+        with:
+          category: "plugin"
+
+  hassfest:
+    if: |
+      github.event.pull_request.label.name != 'documentation' &&
+      github.event.pull_request.label.name != 'github'
+    name: hassfest
+    runs-on: "ubuntu-latest"
+    steps:
+        - uses: "actions/checkout@v3"
+        - uses: "home-assistant/actions/hassfest@master"
