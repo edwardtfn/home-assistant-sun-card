@@ -1,6 +1,6 @@
 {
-  "name": "Sun Card",
-  "render_readme": true,
   "content_in_root": false,
-  "filename": "home-assistant-sun-card.js"
+  "filename": "home-assistant-sun-card.js",
+  "name": "Sun Card",
+  "render_readme": true
 }
