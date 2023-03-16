@@ -1,3 +1,5 @@
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
+
 # Home Assistant Sun card
 Home Assistant Sun card based on Google Weather design
 
@@ -9,10 +11,21 @@ Home Assistant Sun card based on Google Weather design
 - This card uses [Sun integration](https://www.home-assistant.io/integrations/sun/) so it needs to be enabled
 
 ## Install
-### HACS
-~~Home assistant Sun card is available by default on HACS directory.~~ ~~More info [here](https://hacs.xyz/).~~
+### HACS (recommended)
 
-I'm working on publishing this back into HACS and will update the status here. Meanwhile you can install it manually.
+Home Assistant Sun card is available as a custom repository on HACS.
+In order to install it, please follow these steps:
+1. Ooen HACS in your Home Assistant
+1. Click on the 3-dots menu in the top right and select "Custom repositories"
+1. Use the following information:
+    - Repository: https://github.com/edwardtfn/home-assistant-sun-card
+    - Category: Lovelace
+1. Click "Add"
+1. Search for "Sun card" on HACS directory and select the entry related to this card
+1. Click "Download"
+1. Follow the instructions from HACS and reload the page at the end
+
+Note: I'm working on publishing this back into HACS default directory and will update the status here.
 
 ### Manually
 1. Download the `home-assistant-sun-card.js` file from the [latest release available](https://github.com/edwardtfn/home-assistant-sun-card/releases) and save it in your `config/www/community/home-assistant-sun-card/` folder.
