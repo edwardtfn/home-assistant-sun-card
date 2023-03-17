@@ -1,7 +1,7 @@
 {
   "name": "homeassistant-sun-card",
   "version": "1.0.0",
-  "description": "Home assistant sun card based on Google weather design",
+  "description": "Home Assistant Sun card based on Google Weather design",
   "main": "dist/index.js",
   "scripts": {
     "start": "rollup -c rollup.config.dev.js --watch",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AitorDB/homeassistant-sun-card.git"
+    "url": "git+https://github.com/edwardtfn/homeassistant-sun-card.git"
   },
   "author": "AitorDB <aitor.db.mail@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AitorDB/homeassistant-sun-card/issues"
+    "url": "https://github.com/edwardtfn/homeassistant-sun-card/issues"
   },
-  "homepage": "https://github.com/AitorDB/homeassistant-sun-card#readme",
+  "homepage": "https://github.com/edwardtfn/homeassistant-sun-card#readme",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
