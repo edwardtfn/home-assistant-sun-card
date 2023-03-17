@@ -1,6 +1,6 @@
 {
   "name": "homeassistant-sun-card",
-  "version": "1.0.0",
+  "version": "2023.3.3",
   "description": "Home Assistant Sun card based on Google Weather design",
   "main": "dist/index.js",
   "scripts": {
@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "custom-card-helpers": "^1.6.6",
-    "lit-element": "^2.4.0"
+    "lit-element": "^2.4.0",
+    "rimraf": "^4.4.0"
   }
 }

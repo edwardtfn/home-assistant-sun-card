@@ -34,7 +34,7 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (https://nodejs.org/api/addons.html)
+# Compiled binary addons (c)
 build/Release
 
 # Dependency directories
@@ -102,3 +102,7 @@ typings/
 
 # TernJS port file
 .tern-port
+
+# Build files
+.vs
+build.cmd
