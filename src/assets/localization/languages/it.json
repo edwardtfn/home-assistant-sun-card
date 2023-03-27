@@ -7,6 +7,6 @@
   "Sunrise": "Alba",
   "Sunset": "Tramonto",
   "errors": {
-    "SunIntegrationNotFound": "Sun integration not found"
+    "SunIntegrationNotFound": "Integrazione Sun non trovata"
   }
 }
