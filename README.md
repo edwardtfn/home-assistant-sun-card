@@ -1,6 +1,6 @@
 # *Notice about the future of this repository*
 
-*As you may know, this repo was duplicated from [AitorDB/home-assistant-sun-card](https://github.com/AitorDB/home-assistant-sun-card) which was archived on 2023-03-10, and just like this one, multiple other forks have been created in a rush to preserve this nice card in Home Assistant. And since then our fork have received some pull requests from users who wanted to contribute to this card.*
+*As you may know, this repo was duplicated from AitorDB/home-assistant-sun-card which was archived on 2023-03-10, and just like this one, multiple other forks have been created in a rush to preserve this nice card in Home Assistant. And since then our fork have received some pull requests from users who wanted to contribute to this card.*
 
 *However, one of the other forks, named [rejuvenate/lovelace-horizon-card](https://github.com/rejuvenate/lovelace-horizon-card), has received more development and is now the recommended card to use for your Home Assistant installation. Therefore, we encourage you to switch to that repository for any future updates or contributions.*
 
